@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>מוצרי החלב - ניהול הזמנות</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      padding: 30px;
+      direction: rtl;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    section {
+      margin-top: 30px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>מוצרי החלב - מערכת לניהול הזמנות</h1>
+    <p>ניהול ותכנון הזמנות חכמות עבור יבואנים בכל הארץ</p>
+  </header>
+
+  <section>
+    <h2>הזמנה חדשה</h2>
+    <form id="orderForm">
+      <label for="clientName">שם הלקוח:</label>
+      <input type="text" id="clientName" required>
+
+      <label for="product">בחר מוצר:</label>
+      <select id="product">
+        <option value="חלב 3%">חלב 3%</option>
+        <option value="גבינה לבנה">גבינה לבנה</option>
+        <option value="יוגורט">יוגורט</option>
+        <option val
